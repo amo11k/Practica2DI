@@ -11,15 +11,6 @@ public class activity_main_play extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        /*Button bNewPlayer = (Button) findViewById(R.id.bNewPlayer);
-        bNewPlayer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent act = new Intent(getApplicationContext(), newPlayer.class);
-                startActivity(act);
-            }
-        });*/
-
     }
 
     @Override
