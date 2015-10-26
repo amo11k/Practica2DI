@@ -23,7 +23,9 @@
         android:text="Play"
         android:id="@+id/button2"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="85dp" />
+        android:layout_marginTop="85dp"
+        android:elegantTextHeight="false"
+        android:drawableRight="@android:drawable/ic_media_play" />
 
     <Button
         android:layout_width="300dp"
@@ -31,15 +33,17 @@
         android:text="New Player"
         android:id="@+id/bNewPlayer"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:drawableRight="@android:drawable/ic_menu_add" />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Preferences"
-        android:id="@+id/button4"
+        android:id="@+id/bPref"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:drawableRight="@android:drawable/ic_menu_manage" />
 
     <Button
         android:layout_width="300dp"
@@ -47,5 +51,6 @@
         android:text="About"
         android:id="@+id/button5"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:drawableRight="@android:drawable/ic_dialog_info" />
 </LinearLayout>

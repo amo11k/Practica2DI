@@ -10,7 +10,6 @@
         <activity
             android:name=".main_play"
             android:label="@string/title_activity_main_play" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +23,14 @@
         <activity
             android:name=".activity_main_play"
             android:label="@string/title_activity_activity_main_play" >
+        </activity>
+        <activity
+            android:name=".preferences"
+            android:label="@string/title_activity_preferences" >
+        </activity>
+        <activity
+            android:name=".games"
+            android:label="@string/title_activity_games" >
         </activity>
     </application>
 

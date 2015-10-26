@@ -19,13 +19,22 @@ public class main_play extends AppCompatActivity {
         setContentView(R.layout.activity_main_play);
 
         TextView titulo = (TextView) findViewById(R.id.titulo);
-        titulo.setTypeface(Typeface.createFromAsset(getAssets(),"Courgette-Regular.ttf"));
+        titulo.setTypeface(Typeface.createFromAsset(getAssets(), "Courgette-Regular.ttf"));
 
         Button bNewPlayer = (Button) findViewById(R.id.bNewPlayer);
         bNewPlayer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent act = new Intent(getApplicationContext(), newPlayer.class);
+                startActivity(act);
+            }
+        });
+
+        Button pref = (Button) findViewById(R.id.bPref);
+        pref.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent act = new Intent(getApplicationContext(), preferences.class);
                 startActivity(act);
             }
         });

@@ -32,12 +32,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-                    android:text="Name"
                     android:ems="10"
                     android:id="@+id/editText"
                     android:layout_span="2"
                     android:layout_column="2"
-                    android:layout_gravity="bottom" />
+                    android:layout_gravity="bottom"
+                    android:hint="Name" />
 
             </TableRow>
 
@@ -50,11 +50,11 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPhonetic"
-                    android:text="Phonetic name"
                     android:ems="10"
                     android:id="@+id/editText2"
                     android:layout_column="2"
-                    android:layout_span="2" />
+                    android:layout_span="2"
+                    android:hint="Phonetic name" />
             </TableRow>
 
             <TableRow
@@ -65,12 +65,12 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Nickname"
                     android:ems="10"
                     android:id="@+id/editText3"
                     android:layout_column="2"
                     android:layout_span="2"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:hint="Nickname" />
             </TableRow>
 
             <TableRow
@@ -122,7 +122,7 @@
                     android:id="@+id/editText4"
                     android:layout_column="2"
                     android:layout_span="2"
-                    android:text="Phone" />
+                    android:hint="Phone" />
             </TableRow>
 
             <TableRow
@@ -156,8 +156,8 @@
                     android:id="@+id/editText5"
                     android:layout_column="2"
                     android:layout_span="2"
-                    android:text="E-mail"
-                    android:inputType="textWebEmailAddress" />
+                    android:inputType="textWebEmailAddress"
+                    android:hint="E-mail" />
             </TableRow>
 
         </TableLayout>
